@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tris.list">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/shannyapp_image"
+        android:label="Shanny"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Book_Nanny" android:parentActivityName=".Search_Nanny" android:label="Search Result" />
+        <activity android:name=".MainActivity" android:parentActivityName=".Search_Nanny"  android:label="Search Result"/>
+        <activity android:name=".Message"  android:parentActivityName=".Book_Nanny"/>
+        <activity android:name=".Search_Nanny" android:parentActivityName=".Navigation_Bar"  android:label="Book Nanny"/>
+        <activity android:name=".LoginPage" />
+        <activity android:name=".Forget_Password" />
+        <activity android:name=".Set_Password" />
+        <activity android:name=".Signup_Page" />
+        <activity android:name=".About_Shanny" android:parentActivityName=".Navigation_Bar"/>
+        <activity
+            android:name=".Navigation_Bar"
+            android:label="Welcome Elsa!"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+    </application>
+
+</manifest>
