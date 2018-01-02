@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FDD7E4">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      Part Time Nanny"
+        android:textAlignment="viewStart"
+        android:background="#ffffff"
+        android:textSize="25sp"
+        android:textColor="#FF88D3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="Date"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#FF88D3"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:hint="DD:MM:YY"
+        android:textSize="15dp"
+        android:background="@drawable/edittext"
+        android:layout_marginRight="20dp"
+        android:id="@+id/tv"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:text="Time"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="22sp"
+        android:textColor="#FF88D3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:text="Start"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="20sp"
+        android:textColor="#FF88D3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:text="End"
+        android:layout_marginLeft="250dp"
+        android:layout_marginRight="40dp"
+        android:textSize="20sp"
+        android:textColor="#FF88D3"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="20dp"
+                android:gravity="center"
+        android:hint="HH:MM"
+        android:textSize="15dp"
+        android:onClick="ShowTimePicker"
+        android:background="@drawable/edittext"
+        android:layout_marginRight="20dp"
+        android:id="@+id/tv1"/>
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="220dp"
+
+        android:onClick="ShowTime"
+        android:gravity="center"
+        android:hint="HH:MM"
+        android:textSize="15dp"
+        android:background="@drawable/edittext"
+        android:layout_marginRight="20dp"
+        android:id="@+id/tv2"/>
+
+
+
+    <!--submit button for searching-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="370dp"
+        android:text="Search Nanny"
+
+        android:onClick="search"
+        android:background="@drawable/button"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+
+
+
+</RelativeLayout>

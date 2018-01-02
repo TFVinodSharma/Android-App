@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="30dp"
+        android:id="@+id/textView"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/textView"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:text=" Shanny is a caretaker's   Application . Elderly caretakers help older individuals who need assistance. They can help their patients get dressed, eat, bathe and complete light housekeeping duties, such as dishes or folding laundry. Caretakers plan, prepare and monitor meals.
+
+"/>
+
+</RelativeLayout>

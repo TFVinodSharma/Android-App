@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/download"
+        android:layout_margin="10dp"
+        android:id="@+id/imageview"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        android:textColor="#FF88D3"
+        android:id="@+id/textview1"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="70dp"
+        android:textColor="#b3cccc"
+
+        android:id="@+id/textview2"/>
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/RatingBar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/ratingbar"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="90dp"
+        android:id="@+id/textview3"
+        android:textColor="#b3cccc"
+
+        android:text="7 Reviews"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/imagesssss"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="110dp"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/imagesss"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="110dp"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/photos"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="110dp"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/photot"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="110dp"/>
+
+
+
+
+</RelativeLayout>

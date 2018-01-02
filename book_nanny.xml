@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/textName"
+
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textColor="#FF88D3"
+            android:textSize="20sp"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:src="@drawable/shannyapp_image"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shape"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="135dp"
+            android:background="#FDD7E4"
+            />
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:onClick="showrating"
+            android:transformPivotX="0dp"
+            android:transformPivotY="0dp"
+            android:theme="@style/YellowRatingBar"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:isIndicator="false"
+            android:layout_marginLeft="90dp"
+            android:numStars="5"
+            android:max="5"
+            android:id="@+id/r1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/corner_button"
+            android:textSize="10sp"
+            android:textColor="#FF88D3"
+            android:layout_marginLeft="30dp"
+            android:text="Summary"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/corner_button"
+            android:textSize="10sp"
+            android:textColor="#FF88D3"
+            android:layout_marginLeft="140dp"
+            android:text="Reviews"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:textColor="#FF88D3"
+            android:background="@drawable/corner_button"
+            android:textSize="10sp"
+            android:layout_marginLeft="245dp"
+            android:text="Security"/>
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/navigate"
+            android:layout_marginTop="310dp"
+            android:layout_marginLeft="35dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="310dp"
+            android:textColor="#b3cccc"
+            android:text=" At Vasant Kunj New Delhi"
+            android:textAlignment="textStart"/>
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/rupee"
+            android:layout_marginTop="335dp"
+            android:layout_marginLeft="37dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="335dp"
+            android:textColor="#b3cccc"
+            android:text=" From 50/hr"
+            android:textAlignment="textStart"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/calender1"
+            android:layout_marginTop="357dp"
+            android:layout_marginLeft="35dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="357dp"
+            android:textColor="#b3cccc"
+            android:text=" Monday-Saturday"
+            android:textAlignment="textStart"/>
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/clock"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="37dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="380dp"
+            android:textColor="#b3cccc"
+            android:text=" 6:00AM-11:00AM"
+            android:textAlignment="textStart"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/phone"
+            android:layout_marginTop="404dp"
+            android:layout_marginLeft="37dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="404dp"
+            android:textColor="#b3cccc"
+            android:text=" +911122334455"
+            android:textAlignment="textStart"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="435dp"
+            android:textColor="#FF88D3"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_marginLeft="30dp"
+            android:text="Call"
+            android:id="@+id/callDialer"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="435dp"
+            android:textAlignment="center"
+            android:textColor="#FF88D3"
+            android:textSize="20sp"
+            android:layout_marginLeft="220dp"
+            android:text="Message"
+            android:id="@+id/message_view"/>
+
+
+
+
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="480dp"
+            android:layout_marginLeft="30dp"
+            android:text="Book"
+            android:background="@drawable/button"
+            android:textSize="10sp"
+            android:id="@+id/b1"
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="480dp"
+            android:layout_marginLeft="220dp"
+            android:text="Add to list"
+            android:id="@+id/addtolist"
+            android:background="@drawable/button"
+            android:textSize="10sp"
+            />
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FDD7E4">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/i1"
+            android:src="@drawable/shannyapp_image"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/i1"
+            android:id="@+id/Shanny"
+            android:textColor="#FF88D3"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:text="Shanny"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/Shanny"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext"
+            android:id="@+id/e1"
+            android:ems="10"
+            android:layout_marginRight="20dp"
+            android:hint="User Name" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/e1"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/edittext"
+            android:hint="Email"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:gravity="bottom"
+            android:layout_marginRight="20dp"
+            android:id="@+id/e2"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/edittext"
+            android:layout_below="@+id/e2"
+            android:layout_marginTop="15dp"
+            android:hint="Location"
+            android:ems="10"
+            android:layout_marginRight="20dp"
+            android:id="@+id/e3"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/e6"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/e3"
+            android:ems="10"
+            android:background="@drawable/edittext"
+            android:layout_marginRight="20dp"
+            android:hint="Mobile"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/edittext"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/e6"
+            android:layout_marginTop="15dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/e5"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/e5"
+            android:background="@drawable/button"
+            android:layout_marginRight="20dp"
+            android:textColor="#FFFFFF"
+            android:text="Sign Up"
+            android:id="@+id/btn"/>
+           <!-- android:onClick="showSignup"-->
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/btn"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/r1"
+            android:textColor="#FF88D3"
+            android:layout_marginRight="20dp"
+            android:text="Accept Term and Conditions"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="center"
+            android:id="@+id/T1"
+            android:text="__________________or____________________"
+            android:layout_below="@+id/r1"
+            android:layout_marginTop="15dp"
+            android:textColor="#FF88D3"
+            android:layout_marginRight="20dp"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/T1"
+            android:text="Sign Up with Facebook"
+            android:id="@+id/b1"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button2"
+            android:textColor="#FFFFFF"/>
+        <!--android:onClick="show2"-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already SignUp?"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/b1"
+            android:id="@+id/T2"
+            android:layout_marginLeft="90dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/b1"
+            android:layout_toRightOf="@+id/T2"
+            android:textColor="#FF88D3"
+            android:id="@+id/t1"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>
